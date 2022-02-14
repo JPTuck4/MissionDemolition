@@ -2,7 +2,7 @@
  * Date Created: 2/9/22
  * Created By: JP Tucker
  * 
- * Last Edited On: 2/9/22
+ * Last Edited On: 2/14/22
  * Last Editied By: JP
  * 
  * Description: activates the slingshot
@@ -63,6 +63,7 @@ public class Slingshot : MonoBehaviour
             aimingMode = false;
             projectileRB.isKinematic = false;
             projectileRB.velocity = -mouseDelta * velocityMultiplier;
+            FollowCam.POI = projectile; //set camera
             projectile = null;
 
         }
