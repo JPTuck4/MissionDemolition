@@ -56,12 +56,12 @@ public class Cloud : MonoBehaviour
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
-        { // j
+        {
             Restart();
         }
     }
     void Restart()
-    { // k
+    { 
       // Clear out old spheres
         foreach (GameObject sp in spheres)
         {
