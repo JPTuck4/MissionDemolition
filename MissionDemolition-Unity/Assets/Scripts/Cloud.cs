@@ -2,7 +2,7 @@
  * Date Created: 2/14/22
  * Created By: JP Tucker
  * 
- * Last Edited On: 2/14/22
+ * Last Edited On: 2/21/22
  * Last Editied By: JP
  * 
  * Description: creates clouds
@@ -14,7 +14,7 @@ using System.Collections.Generic;
 using UnityEngine;
 public class Cloud : MonoBehaviour
 {
-    [Header(" Set in Inspector")]
+    [Header("Set in Inspector")]
     public GameObject cloudSphere;
     public int numSpheresMin = 6;
     public int numSpheresMax = 10;
@@ -55,10 +55,10 @@ public class Cloud : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            Restart();
-        }
+        //if (Input.GetKeyDown(KeyCode.Space))
+        //{
+        //    Restart();
+        //}
     }
     void Restart()
     { 

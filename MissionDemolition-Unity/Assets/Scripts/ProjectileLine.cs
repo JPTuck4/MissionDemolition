@@ -85,6 +85,7 @@ public class ProjectileLine : MonoBehaviour
             line.positionCount = points.Count;
             line.SetPosition(points.Count - 1, lastPoint);
             line.enabled = true;
+            
         }
     }
     // Returns the location of the most recently added point
