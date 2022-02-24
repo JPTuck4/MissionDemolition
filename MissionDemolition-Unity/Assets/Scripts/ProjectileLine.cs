@@ -108,7 +108,7 @@ public class ProjectileLine : MonoBehaviour
             // If there is no poi, search for one
             if (FollowCam.POI != null)
             {
-                if (FollowCam.POI.tag == " Projectile")
+                if (FollowCam.POI.tag == "Projectile")
                 {
                     poi = FollowCam.POI;
                 }
